@@ -14,8 +14,8 @@ function Footer() {
                 className="h-8 mr-3"
                 alt="Logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
-                Deom
+              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white link link-underline link-underline-black">
+                DevRoute
               </span>
             </a>
             <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
