@@ -33,10 +33,11 @@ export default function Feature() {
             </div>
             <div class="mt-5">
               <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
-                Responsive
+                Explore Technology Ecosystems
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                Responsive, and mobile-first project on the web
+                DevRoute Navigator provides a hierarchical tree to explore
+                components and libraries within chosen technologies like React.
               </p>
               <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more
@@ -78,10 +79,11 @@ export default function Feature() {
             </div>
             <div class="mt-5">
               <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
-                Customizable
+                Multiple Implementation Approaches
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                Components are easily customized and extendable
+                Each component branches into various approaches, patterns, or
+                techniques.
               </p>
               <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more
@@ -122,10 +124,11 @@ export default function Feature() {
             </div>
             <div class="mt-5">
               <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
-                Documentation
+                Article Links:
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                Every component and plugin is well documented
+                Access curated articles, tutorials, and documentation for
+                comprehensive learning.
               </p>
               <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more
@@ -166,10 +169,11 @@ export default function Feature() {
             </div>
             <div class="mt-5">
               <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
-                24/7 Support
+                User Contributions
               </h3>
               <p class="mt-1 text-gray-600 dark:text-gray-400">
-                Contact us 24 hours a day, 7 days a week
+                Foster a collaborative environment by allowing users to
+                contribute and share their approaches.
               </p>
               <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more

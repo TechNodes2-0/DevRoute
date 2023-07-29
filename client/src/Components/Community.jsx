@@ -4,7 +4,7 @@ import React from "react";
 
 export default function Community() {
   return (
-    <div>
+    <div className="bg-gray-900">
       <div class="max-w-5xl px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6">
           <a
@@ -29,7 +29,7 @@ export default function Community() {
                     Ask our community
                   </h3>
                   <p class="text-sm text-gray-500">
-                    Get help from 40k+ Preline users
+                    Get help from community members
                   </p>
                 </div>
               </div>
@@ -59,7 +59,7 @@ export default function Community() {
                     Get help in the app
                   </h3>
                   <p class="text-sm text-gray-500">
-                    Just head to «Help» in the app
+                    Just us in the Projects app
                   </p>
                 </div>
               </div>
@@ -90,7 +90,7 @@ export default function Community() {
                   <p class="text-sm text-gray-500">
                     Reach us at{" "}
                     <span class="text-blue-600 font-medium dark:text-blue-500">
-                      info@site.com
+                      technodes2.0@gmail.com
                     </span>
                   </p>
                 </div>
