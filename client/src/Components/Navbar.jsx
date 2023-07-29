@@ -4,30 +4,35 @@ import React from "react";
 
 function Navbar() {
   return (
-    <div class="bg-gray-50 dark:bg-slate-900">
-      <header class="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gray-900 border-b border-gray-700 text-sm py-2.5 sm:py-4">
+    <div className="bg-gray-50 dark:bg-slate-900">
+      <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gray-900 border-b border-gray-700 text-sm py-2.5 sm:py-4">
         <nav
-          class="max-w-[85rem] flex basis-full items-center w-full mx-auto px-4 sm:px-6 lg:px-8"
+          className="max-w-[85rem] flex basis-full items-center w-full mx-auto px-4 sm:px-6 lg:px-8"
           aria-label="Global"
         >
-          <div class="mr-5 md:mr-8">
+          <div className="mr-5 md:mr-8 flex">
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/10434/10434277.png"
+              className="h-8 mr-3"
+              alt="Logo"
+            />
             <a
-              class="flex-none text-xl font-semibold text-white"
+              className="flex-none text-xl font-semibold text-white"
               href="#"
               aria-label="Brand"
             >
-              Brand
+              DevRoute
             </a>
           </div>
 
-          <div class="w-full flex items-center justify-end ml-auto sm:justify-between sm:gap-x-3 sm:order-3">
-            <div class="sm:hidden">
+          <div className="w-full flex items-center justify-end ml-auto sm:justify-between sm:gap-x-3 sm:order-3">
+            <div className="sm:hidden">
               <button
                 type="button"
-                class="inline-flex flex-shrink-0 justify-center items-center gap-2 h-[2.375rem] w-[2.375rem] rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs"
+                className="inline-flex flex-shrink-0 justify-center items-center gap-2 h-[2.375rem] w-[2.375rem] rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs"
               >
                 <svg
-                  class="w-3.5 h-3.5"
+                  className="w-3.5 h-3.5"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -39,14 +44,14 @@ function Navbar() {
               </button>
             </div>
 
-            <div class="hidden mx-auto sm:block">
-              <label for="icon" class="sr-only">
+            <div className="hidden mx-auto sm:block">
+              <label for="icon" className="sr-only">
                 Search
               </label>
-              <div class="relative">
-                <div class="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
+              <div className="relative">
+                <div className="absolute inset-y-0 left-0 flex items-center pointer-events-none z-20 pl-4">
                   <svg
-                    class="h-4 w-4 text-gray-500"
+                    className="h-4 w-4 text-gray-500"
                     xmlns="http://www.w3.org/2000/svg"
                     width="16"
                     height="16"
@@ -60,22 +65,22 @@ function Navbar() {
                   type="text"
                   id="icon"
                   name="icon"
-                  class="py-2 px-4 pl-11 pr-20 block w-92 md:w-96 bg-transparent border-gray-700 shadow-sm rounded-md text-sm text-gray-300 focus:z-10 focus:border-gray-900 focus:ring-gray-600 placeholder:text-gray-500"
+                  className="py-2 px-4 pl-11 pr-20 block w-92 md:w-96 bg-transparent border-gray-700 shadow-sm rounded-md text-sm text-gray-300 focus:z-10 focus:border-gray-900 focus:ring-gray-600 placeholder:text-gray-500"
                   placeholder="Search"
                 />
-                <div class="absolute inset-y-0 right-0 flex items-center pointer-events-none z-20 pr-4">
-                  <span class="text-gray-500">Ctrl + /</span>
+                <div className="absolute inset-y-0 right-0 flex items-center pointer-events-none z-20 pr-4">
+                  <span className="text-gray-500">Ctrl + /</span>
                 </div>
               </div>
             </div>
 
-            <div class="flex flex-row items-center justify-end gap-2">
+            <div className="flex flex-row items-center justify-end gap-2">
               <button
                 type="button"
-                class="inline-flex flex-shrink-0 justify-center items-center gap-2 h-[2.375rem] w-[2.375rem] rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs"
+                className="inline-flex flex-shrink-0 justify-center items-center gap-2 h-[2.375rem] w-[2.375rem] rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs"
               >
                 <svg
-                  class="w-3.5 h-3.5"
+                  className="w-3.5 h-3.5"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -85,59 +90,42 @@ function Navbar() {
                   <path d="M8 16a2 2 0 0 0 2-2H6a2 2 0 0 0 2 2zM8 1.918l-.797.161A4.002 4.002 0 0 0 4 6c0 .628-.134 2.197-.459 3.742-.16.767-.376 1.566-.663 2.258h10.244c-.287-.692-.502-1.49-.663-2.258C12.134 8.197 12 6.628 12 6a4.002 4.002 0 0 0-3.203-3.92L8 1.917zM14.22 12c.223.447.481.801.78 1H1c.299-.199.557-.553.78-1C2.68 10.2 3 6.88 3 6c0-2.42 1.72-4.44 4.005-4.901a1 1 0 1 1 1.99 0A5.002 5.002 0 0 1 13 6c0 .88.32 4.2 1.22 6z" />
                 </svg>
               </button>
-              <button
-                type="button"
-                class="inline-flex flex-shrink-0 justify-center items-center gap-2 h-[2.375rem] w-[2.375rem] rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs"
-                data-hs-offcanvas="#hs-offcanvas-right"
-              >
-                <svg
-                  class="w-3.5 h-3.5"
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="16"
-                  height="16"
-                  fill="currentColor"
-                  viewBox="0 0 16 16"
-                >
-                  <path d="M5.5 2A3.5 3.5 0 0 0 2 5.5v5A3.5 3.5 0 0 0 5.5 14h5a3.5 3.5 0 0 0 3.5-3.5V8a.5.5 0 0 1 1 0v2.5a4.5 4.5 0 0 1-4.5 4.5h-5A4.5 4.5 0 0 1 1 10.5v-5A4.5 4.5 0 0 1 5.5 1H8a.5.5 0 0 1 0 1H5.5z" />
-                  <path d="M16 3a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
-                </svg>
-              </button>
 
               <div
-                class="hs-dropdown relative inline-flex"
+                className="hs-dropdown relative inline-flex"
                 data-hs-dropdown-placement="bottom-right"
               >
                 <button
                   id="hs-dropdown-with-header"
                   type="button"
-                  class="inline-flex flex-shrink-0 justify-center items-center gap-2 h-[2.375rem] w-[2.375rem] rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs"
+                  className="inline-flex flex-shrink-0 justify-center items-center gap-2 h-[2.375rem] w-[2.375rem] rounded-full font-medium hover:bg-white/[.2] text-white align-middle focus:outline-none focus:ring-2 focus:ring-gray-400 focus:ring-offset-2 focus:ring-offset-gray-900 transition-all text-xs"
                 >
                   <img
-                    class="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
-                    src="https://cdn-icons-png.flaticon.com/512/10434/10434277.png"
+                    className="inline-block h-[2.375rem] w-[2.375rem] rounded-full"
+                    src="https://cdn-icons-png.flaticon.com/512/295/295128.png"
                     alt="Image Description"
                   />
                 </button>
 
                 <div
-                  class="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden min-w-[15rem] z-10 bg-white shadow-md rounded-lg p-2 dark:bg-gray-800 dark:border dark:border-gray-700"
+                  className="hs-dropdown-menu transition-[opacity,margin] duration hs-dropdown-open:opacity-100 opacity-0 hidden min-w-[15rem] z-10 bg-white shadow-md rounded-lg p-2 dark:bg-gray-800 dark:border dark:border-gray-700"
                   aria-labelledby="hs-dropdown-with-header"
                 >
-                  <div class="py-3 px-5 -m-2 bg-gray-100 rounded-t-lg dark:bg-gray-700">
-                    <p class="text-sm text-gray-500 dark:text-gray-400">
+                  <div className="py-3 px-5 -m-2 bg-gray-100 rounded-t-lg dark:bg-gray-700">
+                    <p className="text-sm text-gray-500 dark:text-gray-400">
                       Signed in as
                     </p>
-                    <p class="text-sm font-medium text-gray-800 dark:text-gray-300">
+                    <p className="text-sm font-medium text-gray-800 dark:text-gray-300">
                       james@site.com
                     </p>
                   </div>
-                  <div class="mt-2 py-2 first:pt-0 last:pb-0">
+                  <div className="mt-2 py-2 first:pt-0 last:pb-0">
                     <a
-                      class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                      className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
                       <svg
-                        class="flex-none"
+                        className="flex-none"
                         width="16"
                         height="16"
                         viewBox="0 0 16 16"
@@ -148,11 +136,11 @@ function Navbar() {
                       Newsletter
                     </a>
                     <a
-                      class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                      className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
                       <svg
-                        class="flex-none"
+                        className="flex-none"
                         width="16"
                         height="16"
                         viewBox="0 0 16 16"
@@ -164,11 +152,11 @@ function Navbar() {
                       Purchases
                     </a>
                     <a
-                      class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                      className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
                       <svg
-                        class="flex-none"
+                        className="flex-none"
                         width="16"
                         height="16"
                         viewBox="0 0 16 16"
@@ -183,11 +171,11 @@ function Navbar() {
                       Downloads
                     </a>
                     <a
-                      class="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
+                      className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
                       href="#"
                     >
                       <svg
-                        class="flex-none"
+                        className="flex-none"
                         width="16"
                         height="16"
                         viewBox="0 0 16 16"
@@ -207,57 +195,57 @@ function Navbar() {
 
       <main id="content" role="main">
         <nav
-          class="sticky -top-px bg-white text-sm font-medium text-black ring-1 ring-gray-900 ring-opacity-5 border-t shadow-sm shadow-gray-100 pt-6 md:pb-6 -mt-px dark:bg-slate-900 dark:border-gray-800 dark:shadow-slate-700/[.7]"
+          className="sticky -top-px bg-white text-sm font-medium text-black ring-1 ring-gray-900 ring-opacity-5 border-t shadow-sm shadow-gray-100 pt-6 md:pb-6 -mt-px dark:bg-slate-900 dark:border-gray-800 dark:shadow-slate-700/[.7]"
           aria-label="Jump links"
         >
-          <div class="max-w-7xl snap-x w-full flex items-center overflow-x-auto scrollbar-x px-4 sm:px-6 lg:px-8 pb-4 md:pb-0 mx-auto dark:scrollbar-x">
-            <div class="snap-center shrink-0 pr-5 sm:pr-8 sm:last-pr-0">
+          <div className="max-w-7xl snap-x w-full flex items-center overflow-x-auto scrollbar-x px-4 sm:px-6 lg:px-8 pb-4 md:pb-0 mx-auto dark:scrollbar-x">
+            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last-pr-0">
               <a
-                class="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
+                className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
                 href="#"
               >
                 Dashboard
               </a>
             </div>
-            <div class="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
+            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
               <a
-                class="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
+                className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
                 href="#"
               >
                 Users
               </a>
             </div>
-            <div class="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
+            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
               <a
-                class="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
+                className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
                 href="#"
               >
                 Account
               </a>
             </div>
-            <div class="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
+            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
               <a
-                class="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
+                className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
                 href="#"
               >
                 Projects
               </a>
             </div>
-            <div class="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
+            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
               <a
-                class="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
+                className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
                 href="#"
               >
                 Calendar
               </a>
             </div>
-            <div class="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
+            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
               <a
-                class="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
+                className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
                 href="#"
               >
                 Documentation
-                <span class="inline bg-gray-100 text-xs text-gray-500 font-semibold rounded-full py-1 px-2 dark:bg-gray-700 dark:text-gray-400">
+                <span className="inline bg-gray-100 text-xs text-gray-500 font-semibold rounded-full py-1 px-2 dark:bg-gray-700 dark:text-gray-400">
                   v12.7
                 </span>
               </a>
