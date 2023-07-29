@@ -12,7 +12,7 @@ function Navbar() {
               <input
                 type="text"
                 placeholder="Search..."
-                className="w-full px-2 border text-black border-gray-300 rounded-l-md focus:outline-none focus:ring focus:border-blue-300"
+                className="w-full px-2 border text-black border-gray-300 rounded-l-md focus:outline-none "
               />
               <button className="bg-blue-500 hover:bg-blue-600 text-white px-2  rounded-r-md">
               🔍
