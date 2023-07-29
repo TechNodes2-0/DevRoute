@@ -1,11 +1,14 @@
 /** @format */
 
 import React from "react";
+import LibraryHeroSection from "../../Components/LibraryHeroSection";
+import LibraryCard from "../../Components/LibraryCard";
 
 export default function Library() {
   return (
     <div>
-      <h1>Library</h1>
+      <LibraryHeroSection />
+      <LibraryCard />
     </div>
   );
 }
