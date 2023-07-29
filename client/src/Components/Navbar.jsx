@@ -6,17 +6,21 @@ function Navbar() {
       <div className=" py-3 px-[5vw] bg-gray-800 rounded-2xl">
         <div className="flex flex-row justify-between ">
           <div className="my-auto mx-1">
-            <p>LOGO</p>
+            <img
+              src="https://cdn-icons-png.flaticon.com/512/10434/10434277.png"
+              alt="logo"
+              className="h-8 w-8"
+            />
           </div>
           <div className="flex my-auto  mx-1 h-8">
-              <input
-                type="text"
-                placeholder="Search..."
-                className="w-full px-2 border text-black border-gray-300 rounded-l-md focus:outline-none "
-              />
-              <button className="bg-blue-500 hover:bg-blue-600 text-white px-2  rounded-r-md">
+            <input
+              type="text"
+              placeholder="Search..."
+              className="w-full px-2 border text-black border-gray-300 rounded-l-md focus:outline-none "
+            />
+            <button className="bg-blue-500 hover:bg-blue-600 text-white px-2  rounded-r-md">
               🔍
-              </button>
+            </button>
           </div>
           <div className="my-auto mx-1">
             <div className="font-semibold flex">

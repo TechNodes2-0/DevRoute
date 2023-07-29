@@ -1,7 +1,14 @@
-import React from 'react'
+/** @format */
+
+import React from "react";
+import HeroSection from "../../Components/HeroSection";
+import Cards from "../../Components/Cards";
 
 export default function Home() {
   return (
-    <div>Home page route is this</div>
-  )
+    <div>
+      <HeroSection />
+      <Cards />
+    </div>
+  );
 }
