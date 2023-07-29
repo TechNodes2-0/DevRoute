@@ -19,9 +19,8 @@ To run the server, use the following command:
 npm run server
 ```
 
-Before running the server, make sure to create a `.env` file in the root directory of the server with the following variables:
+Before running the server, make sure to create a `.env` file in the root directory of the server with the following variable:
 
-- `DATABASE_URL`: The URL of the database you want to connect to.
 - `MONGO_URI`: The URI for MongoDB.
 
 ## Client Setup
@@ -31,6 +30,10 @@ To run the client, use the following command:
 ```
 npm run dev
 ```
+
+Before running the client, make sure to create a `.env` file in the root directory of the client with the following variable:
+
+- `DATABASE_URL`: The URL of the database you want to connect to.
 
 ## Contributing
 
