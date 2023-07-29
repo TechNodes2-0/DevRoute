@@ -5,38 +5,38 @@ import React from "react";
 export default function HeroSection() {
   return (
     <div className="bg-gray-900">
-      <div class="relative overflow-hidden">
-        <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-24">
-          <div class="text-center">
-            <h1 class="text-4xl sm:text-6xl font-bold text-gray-800 dark:text-gray-200">
+      <div className="relative overflow-hidden">
+        <div className="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-10 sm:py-24">
+          <div className="text-center">
+            <h1 className="text-4xl sm:text-6xl font-bold text-gray-800 dark:text-gray-200">
               Insights
             </h1>
 
-            <p class="mt-3 text-gray-600 dark:text-gray-400">
+            <p className="mt-3 text-gray-600 dark:text-gray-400">
               Stay in the know with insights from industry experts.
             </p>
 
-            <div class="mt-7 sm:mt-12 mx-auto max-w-xl relative">
+            <div className="mt-7 sm:mt-12 mx-auto max-w-xl relative">
               <form>
-                <div class="relative z-10 flex space-x-3 p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:shadow-gray-900/[.2]">
-                  <div class="flex-[1_0_0%]">
+                <div className="relative z-10 flex space-x-3 p-3 bg-white border rounded-lg shadow-lg shadow-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:shadow-gray-900/[.2]">
+                  <div className="flex-[1_0_0%]">
                     <label
                       for="hs-search-article-1"
-                      class="block text-sm text-gray-700 font-medium dark:text-white"
+                      className="block text-sm text-gray-700 font-medium dark:text-white"
                     >
-                      <span class="sr-only">Search article</span>
+                      <span className="sr-only">Search article</span>
                     </label>
                     <input
                       type="email"
                       name="hs-search-article-1"
                       id="hs-search-article-1"
-                      class="p-3 block w-full border-transparent rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-400"
+                      className="p-3 block w-full border-transparent rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-400"
                       placeholder="Search article"
                     />
                   </div>
-                  <div class="flex-[0_0_auto]">
+                  <div className="flex-[0_0_auto]">
                     <a
-                      class="p-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"
+                      className="p-4 inline-flex justify-center items-center gap-2 rounded-md border border-transparent font-semibold bg-blue-500 text-white hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2 transition-all text-sm dark:focus:ring-offset-gray-800"
                       href="#"
                     >
                       <svg
@@ -53,9 +53,9 @@ export default function HeroSection() {
                 </div>
               </form>
 
-              <div class="hidden md:block absolute top-0 right-0 -translate-y-12 translate-x-20">
+              <div className="hidden md:block absolute top-0 right-0 -translate-y-12 translate-x-20">
                 <svg
-                  class="w-16 h-auto text-orange-500"
+                  className="w-16 h-auto text-orange-500"
                   width="121"
                   height="135"
                   viewBox="0 0 121 135"
@@ -83,9 +83,9 @@ export default function HeroSection() {
                 </svg>
               </div>
 
-              <div class="hidden md:block absolute bottom-0 left-0 translate-y-10 -translate-x-32">
+              <div className="hidden md:block absolute bottom-0 left-0 translate-y-10 -translate-x-32">
                 <svg
-                  class="w-40 h-auto text-cyan-500"
+                  className="w-40 h-auto text-cyan-500"
                   width="347"
                   height="188"
                   viewBox="0 0 347 188"
@@ -102,13 +102,13 @@ export default function HeroSection() {
               </div>
             </div>
 
-            <div class="mt-10 sm:mt-20">
+            <div className="mt-10 sm:mt-20">
               <a
-                class="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                className="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
                 href="#"
               >
                 <svg
-                  class="w-3 h-auto"
+                  className="w-3 h-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -120,11 +120,11 @@ export default function HeroSection() {
                 Business
               </a>
               <a
-                class="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                className="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
                 href="#"
               >
                 <svg
-                  class="w-3 h-auto"
+                  className="w-3 h-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -137,11 +137,11 @@ export default function HeroSection() {
                 Strategy
               </a>
               <a
-                class="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                className="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
                 href="#"
               >
                 <svg
-                  class="w-3 h-auto"
+                  className="w-3 h-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -153,11 +153,11 @@ export default function HeroSection() {
                 Health
               </a>
               <a
-                class="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                className="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
                 href="#"
               >
                 <svg
-                  class="w-3 h-auto"
+                  className="w-3 h-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -169,11 +169,11 @@ export default function HeroSection() {
                 Creative
               </a>
               <a
-                class="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                className="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
                 href="#"
               >
                 <svg
-                  class="w-3 h-auto"
+                  className="w-3 h-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"
@@ -189,11 +189,11 @@ export default function HeroSection() {
                 Environment
               </a>
               <a
-                class="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
+                className="m-1 py-3 px-4 inline-flex justify-center items-center gap-2 rounded-md border font-medium bg-white text-gray-700 shadow-sm align-middle hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-offset-white focus:ring-blue-600 transition-all text-sm dark:bg-slate-900 dark:hover:bg-slate-800 dark:border-gray-700 dark:text-gray-400 dark:hover:text-white dark:focus:ring-offset-gray-800"
                 href="#"
               >
                 <svg
-                  class="w-3 h-auto"
+                  className="w-3 h-auto"
                   xmlns="http://www.w3.org/2000/svg"
                   width="16"
                   height="16"

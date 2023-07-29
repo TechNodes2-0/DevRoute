@@ -9,23 +9,23 @@ export default function Cards() {
         {" "}
         Maps
       </h1>
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div class="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 xl:grid-cols-4 gap-4 sm:gap-6">
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     Management
                   </h3>
-                  <p class="text-sm text-gray-500">4 job positions</p>
+                  <p className="text-sm text-gray-500">4 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -44,20 +44,20 @@ export default function Cards() {
           </a>
 
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     App Development
                   </h3>
-                  <p class="text-sm text-gray-500">26 job positions</p>
+                  <p className="text-sm text-gray-500">26 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -76,20 +76,20 @@ export default function Cards() {
           </a>
 
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     Arts & Entertainment
                   </h3>
-                  <p class="text-sm text-gray-500">9 job positions</p>
+                  <p className="text-sm text-gray-500">9 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -108,20 +108,20 @@ export default function Cards() {
           </a>
 
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     Accounting
                   </h3>
-                  <p class="text-sm text-gray-500">11 job positions</p>
+                  <p className="text-sm text-gray-500">11 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -140,20 +140,20 @@ export default function Cards() {
           </a>
 
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     UI Designer
                   </h3>
-                  <p class="text-sm text-gray-500">37 job positions</p>
+                  <p className="text-sm text-gray-500">37 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -172,20 +172,20 @@ export default function Cards() {
           </a>
 
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     Apps
                   </h3>
-                  <p class="text-sm text-gray-500">2 job positions</p>
+                  <p className="text-sm text-gray-500">2 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -204,20 +204,20 @@ export default function Cards() {
           </a>
 
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     Content Writer
                   </h3>
-                  <p class="text-sm text-gray-500">10 job positions</p>
+                  <p className="text-sm text-gray-500">10 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
@@ -236,20 +236,20 @@ export default function Cards() {
           </a>
 
           <a
-            class="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
+            className="group flex flex-col bg-white border shadow-sm rounded-xl hover:shadow-md transition dark:bg-slate-900 dark:border-gray-800"
             href="#"
           >
-            <div class="p-4 md:p-5">
-              <div class="flex justify-between items-center">
+            <div className="p-4 md:p-5">
+              <div className="flex justify-between items-center">
                 <div>
-                  <h3 class="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
+                  <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
                     Analytics
                   </h3>
-                  <p class="text-sm text-gray-500">14 job positions</p>
+                  <p className="text-sm text-gray-500">14 job positions</p>
                 </div>
-                <div class="pl-3">
+                <div className="pl-3">
                   <svg
-                    class="w-3.5 h-3.5 text-gray-500"
+                    className="w-3.5 h-3.5 text-gray-500"
                     width="16"
                     height="16"
                     viewBox="0 0 16 16"
