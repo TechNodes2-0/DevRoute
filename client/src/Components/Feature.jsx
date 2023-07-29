@@ -5,9 +5,12 @@ import React from "react";
 export default function Feature() {
   return (
     <div className="bg-gray-900">
-      <h1 className="text-center text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
+      <h1 className=" text-center text-3xl text-gray-800 font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
         {" "}
-        Features{" "}
+        <span className="link link-underline link-underline-black">
+          {" "}
+          Features{" "}
+        </span>
       </h1>
       <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
         <div class="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-2">
