@@ -1,11 +1,12 @@
 /** @format */
 
 import React from "react";
+import ProfileHeroSection from "../../Components/ProfileHeroSection";
 
 function Profile() {
   return (
     <div>
-      <h1>Profile</h1>
+      <ProfileHeroSection />
     </div>
   );
 }
