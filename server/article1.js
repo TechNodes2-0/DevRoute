@@ -207,4 +207,4 @@ Happy coding! 😊🚀
 
 // Combine all the steps into a single article
 // const fullArticle = article1 + article2 + article3 + article4 + article5;
-export { article1, article2, article3, article4, article5 };
+module.exports =  { article1, article2, article3, article4, article5 };
