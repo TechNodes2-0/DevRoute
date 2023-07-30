@@ -58,8 +58,8 @@ const CommunityForum = () => {
   const [threads, setThreads] = useState([
     {
       id: 1,
-      title: "First Thread",
-      author: "Johoe",
+      title: "How can I update my github repository from my local computer?",
+      author: "Danogbans",
       content: "This is first thread. Welcome to our forum!",
       comments: [
         { id: 1, author: "Alice", content: "Hello Joce thread!" },
@@ -68,8 +68,8 @@ const CommunityForum = () => {
     },
     {
       id: 2,
-      title: "second Thread",
-      author: "Joh",
+      title: "I want to use Vue component in Laravel.",
+      author: "Madhava04A",
       content: "This is the first thread. Welcome to our forum!",
       comments: [
         { id: 1, author: "Alice", content: "Hello John! Nicthread!" },
@@ -78,8 +78,8 @@ const CommunityForum = () => {
     },
     {
       id: 3,
-      title: "third Thread",
-      author: "Johne",
+      title: "Need help with analysis of DNS queries",
+      author: "Madhava04A",
       content: "This is the first thread. Welcome to our fm!",
       comments: [
         { id: 1, author: "Alice", content: "Hello John! Ne thread!" },
@@ -88,8 +88,8 @@ const CommunityForum = () => {
     },
     {
       id: 4,
-      title: "fourth Thread",
-      author: "JohnDoe",
+      title: "Open Source + GitHub + Git Bootcamp what should be included... ?",
+      author: "Kevin Lewis",
       content: "This is the first thread. Welcome to r forum!",
       comments: [
         { id: 1, author: "Alice", content: "Hello John! Nice thread!" },
@@ -132,7 +132,7 @@ const CommunityForum = () => {
     <div className="community-forum p-4 bg-gray-900 text-white">
       <h2 className="text-3xl font-bold mb-4 text-center my-10">Discussion</h2>
       <div className="flex justify-center">
-        <div className="threads-list rounded-xl border-0 max-w-xl bg-slate-800 p-5">
+        <div className="threads-list rounded-xl border-0 w-xl bg-slate-800 p-5">
           {threads.map((thread) => (
             <div
               key={thread.id}
@@ -151,7 +151,7 @@ const CommunityForum = () => {
             </div>
           ))}
         </div>
-        <div className="min-w-0 comments-section p-5 mx-5 border-0 rounded-xl bg-gray-800">
+        <div className="max-w-96 comments-section p-5 mx-5 border-0 rounded-xl bg-gray-800">
           {currentThread && (
             <>
               <ThreadDetail thread={currentThread} />

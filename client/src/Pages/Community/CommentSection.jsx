@@ -6,7 +6,7 @@ const CommentSection = ({ comments, onAddComment }) => {
   const handleCommentChange = (event) => {
     setNewComment(event.target.value);
   };
-  
+
   const handleAddComment = () => {
     if (newComment.trim() !== "") {
       onAddComment(newComment.trim());
@@ -15,7 +15,7 @@ const CommentSection = ({ comments, onAddComment }) => {
   };
 
   return (
-    <div id="comment-section" className="comment-section">
+    <div id="comment-section" className="">
       <h4 className="text-sm md:text-xl font-bold mb-2">Comments:</h4>
       {comments.map((comment) => (
         <div key={comment.id} className="comment-item mb-2 border-0 rounded-lg bg-gray-700 p-2">
