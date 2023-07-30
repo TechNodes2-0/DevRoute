@@ -17,14 +17,14 @@ export default function ProfileHeroSection() {
             <div class="grid grid-cols-3 text-center order-last md:order-first mt-20 md:mt-0">
               <div>
                 <p class="font-bold text-white text-xl">22</p>
-                <p class="text-white">Friends</p>
+                <p class="text-white">Article</p>
               </div>
               <div>
-                <p class="font-bold text-gray-700 text-xl">10</p>
-                <p class="text-white">Photos</p>
+                <p class="font-bold text-white text-xl">10</p>
+                <p class="text-white">Saved</p>
               </div>
               <div>
-                <p class="font-bold text-gray-700 text-xl">89</p>
+                <p class="font-bold text-white text-xl">89</p>
                 <p class="text-white">Comments</p>
               </div>
             </div>
@@ -44,7 +44,7 @@ export default function ProfileHeroSection() {
             </div>
           </div>
           <div class="mt-20 text-center border-b pb-12">
-            <h1 class="text-4xl font-medium text-gray-700">{user.name}</h1>
+            <h1 class="text-4xl font-medium text-white">{user.name}</h1>
 
             <p class="mt-8 text-white">{user.email}</p>
             <p class="mt-2 text-white">University of Computer Science</p>
