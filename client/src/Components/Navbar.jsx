@@ -197,7 +197,15 @@ function Navbar() {
                     </div>
                   </div>
                 </div>
-              ) : null}
+              ) : (
+                <a
+                  onClick={() => loginWithRedirect()}
+                  href="#"
+                  class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 dark:bg-blue-600 dark:hover:bg-blue-700 focus:outline-none dark:focus:ring-blue-800"
+                >
+                  Login
+                </a>
+              )}
             </div>
           </div>
         </nav>
@@ -260,40 +268,6 @@ function Navbar() {
                 </span>
               </Link>
             </div>
-            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
-              {!isAuthenticated ? (
-                <a
-                  onClick={() => loginWithRedirect()}
-                  href=""
-                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 hover-underline-animation   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover-underline-animation "
-                >
-                  Login
-                </a>
-              ) : (
-                <a
-                  onClick={() => logout()}
-                  href=""
-                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 hover-underline-animation   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover-underline-animation "
-                >
-                  Logout
-                </a>
-              )}
-            </div>
-            <li>
-              {isAuthenticated && (
-                <div className="flex  gap-4 ">
-                  <img
-                    className="w-10 h-10 rounded-full"
-                    src={user.picture}
-                    alt={user.name}
-                  />
-                  <p class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 hover-underline-animation  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover-underline-animation ">
-                    {" "}
-                    {user.name}{" "}
-                  </p>
-                </div>
-              )}
-            </li>
           </div>
         </nav>
       </main>
