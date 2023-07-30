@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
@@ -240,15 +241,15 @@ function Navbar() {
               </a>
             </div>
             <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
-              <a
+              <Link 
                 className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
+                to="/Forum"
               >
-                Documentation
+                Discussions
                 <span className="inline bg-gray-100 text-xs text-gray-500 font-semibold rounded-full py-1 px-2 dark:bg-gray-700 dark:text-gray-400">
                   v12.7
                 </span>
-              </a>
+              </Link>
             </div>
           </div>
         </nav>

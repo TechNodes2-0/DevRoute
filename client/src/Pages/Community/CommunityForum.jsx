@@ -80,11 +80,11 @@ const CommunityForum = () => {
     <div className="community-forum p-4 bg-gray-900 text-white">
       <h2 className="text-3xl font-bold mb-4 text-center my-10">Discussion</h2>
       <div className=" flex justify-center">
-        <div className="threads-list  rounded-xl border-0  max-w-xl bg-gray-800 p-5">
+        <div className="threads-list  rounded-xl border-0  max-w-xl bg-slate-800 p-5">
           {threads.map((thread) => (
             <div
               key={thread.id}
-              className="thread-item p-4 border-0 bg-gray-900 rounded-xl mb-4 overflow-hidden cursor-pointer hover:bg-gray-700"
+              className="thread-item p-4 border-0 bg-slate-900 rounded-xl mb-4 overflow-hidden cursor-pointer hover:bg-gray-700"
               onClick={() => handleThreadClick(thread)}
             >
               <h3 className="text-sm md:text-xl font-bold mb-2">
