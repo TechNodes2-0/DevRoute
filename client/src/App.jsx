@@ -17,7 +17,7 @@ const ForumPageWithLoading = withLoading(ForumPage);
 export default function App() {
   useEffect(() => {
     alanBtn({
-      key: "d01fc9e7a22b610ebdd4654d5969a9712e956eca572e1d8b807a3e2338fdd0dc/stage",
+      key: "fee4955af337c95864a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
       onCommand: (commandData) => {
         if (commandData.command === "go:back") {
           // Call the client code that will react to the received command
