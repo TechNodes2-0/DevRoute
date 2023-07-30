@@ -2,7 +2,7 @@
 
 import React from "react";
 
-export default function LibraryHeroSection() {
+export default function LibraryHeroSection({onSearch}) {
   return (
     <div className="bg-gray-900">
       <div class="relative overflow-hidden">
@@ -32,6 +32,8 @@ export default function LibraryHeroSection() {
                       id="hs-search-article-1"
                       class="p-3 block w-full border-transparent rounded-md focus:border-blue-500 focus:ring-blue-500 dark:bg-gray-800 dark:text-gray-400"
                       placeholder="Search article"
+                      onChange={(e) => onSearch(e.target.value)}
+
                     />
                   </div>
                   <div class="flex-[0_0_auto]">
