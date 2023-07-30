@@ -40,7 +40,7 @@ mongoose.connect(mongoURI, {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
-
+console.log("Connected Vinayak");
 // Define the MongoDB model for TreeNode
 const treeNodeSchema = new mongoose.Schema({
   name: String,
