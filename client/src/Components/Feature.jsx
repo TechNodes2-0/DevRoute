@@ -12,15 +12,15 @@ export default function Feature() {
           Features{" "}
         </span>
       </h1>
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
-        <div class="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-2">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto ">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 items-center gap-2">
           <a
-            class="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
+            className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
             href="#"
           >
-            <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
+            <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
               <svg
-                class="w-6 h-6 text-white"
+                className="w-6 h-6 text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -31,18 +31,18 @@ export default function Feature() {
                 <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2z" />
               </svg>
             </div>
-            <div class="mt-5">
-              <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
+            <div className="mt-5">
+              <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 Explore Technology Ecosystems
               </h3>
-              <p class="mt-1 text-gray-600 dark:text-gray-400">
+              <p className="mt-1 text-gray-600 dark:text-gray-400">
                 DevRoute Navigator provides a hierarchical tree to explore
                 components and libraries within chosen technologies like React.
               </p>
-              <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
-                  class="w-2.5 h-2.5"
+                  className="w-2.5 h-2.5"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -60,12 +60,12 @@ export default function Feature() {
           </a>
 
           <a
-            class="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
+            className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
             href="#"
           >
-            <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
+            <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
               <svg
-                class="w-6 h-6 text-white"
+                className="w-6 h-6 text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -77,18 +77,18 @@ export default function Feature() {
                 <path d="M14 4a4 4 0 1 1-8 0 4 4 0 0 1 8 0z" />
               </svg>
             </div>
-            <div class="mt-5">
-              <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
+            <div className="mt-5">
+              <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 Multiple Implementation Approaches
               </h3>
-              <p class="mt-1 text-gray-600 dark:text-gray-400">
+              <p className="mt-1 text-gray-600 dark:text-gray-400">
                 Each component branches into various approaches, patterns, or
                 techniques.
               </p>
-              <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
-                  class="w-2.5 h-2.5"
+                  className="w-2.5 h-2.5"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -106,12 +106,12 @@ export default function Feature() {
           </a>
 
           <a
-            class="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
+            className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
             href="#"
           >
-            <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
+            <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
               <svg
-                class="w-6 h-6 text-white"
+                className="w-6 h-6 text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -122,18 +122,18 @@ export default function Feature() {
                 <path d="M9.5 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.5L9.5 0zm0 1v2A1.5 1.5 0 0 0 11 4.5h2V14a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1h5.5z" />
               </svg>
             </div>
-            <div class="mt-5">
-              <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
+            <div className="mt-5">
+              <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 Article Links:
               </h3>
-              <p class="mt-1 text-gray-600 dark:text-gray-400">
+              <p className="mt-1 text-gray-600 dark:text-gray-400">
                 Access curated articles, tutorials, and documentation for
                 comprehensive learning.
               </p>
-              <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
-                  class="w-2.5 h-2.5"
+                  className="w-2.5 h-2.5"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
@@ -151,12 +151,12 @@ export default function Feature() {
           </a>
 
           <a
-            class="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
+            className="group flex flex-col justify-center hover:bg-gray-50 rounded-xl p-4 md:p-7 dark:hover:bg-slate-800"
             href="#"
           >
-            <div class="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
+            <div className="flex justify-center items-center w-12 h-12 bg-blue-600 rounded-xl">
               <svg
-                class="w-6 h-6 text-white"
+                className="w-6 h-6 text-white"
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
                 height="16"
@@ -167,18 +167,18 @@ export default function Feature() {
                 <path d="M5 6a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm4 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z" />
               </svg>
             </div>
-            <div class="mt-5">
-              <h3 class="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
+            <div className="mt-5">
+              <h3 className="group-hover:text-gray-600 text-lg font-semibold text-gray-800 dark:text-white dark:group-hover:text-gray-400">
                 User Contributions
               </h3>
-              <p class="mt-1 text-gray-600 dark:text-gray-400">
+              <p className="mt-1 text-gray-600 dark:text-gray-400">
                 Foster a collaborative environment by allowing users to
                 contribute and share their approaches.
               </p>
-              <span class="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
+              <span className="mt-2 inline-flex items-center gap-x-1.5 text-sm text-blue-600 decoration-2 group-hover:underline font-medium">
                 Learn more
                 <svg
-                  class="w-2.5 h-2.5"
+                  className="w-2.5 h-2.5"
                   width="16"
                   height="16"
                   viewBox="0 0 16 16"
