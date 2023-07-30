@@ -1,6 +1,6 @@
 /** @format */
 
-import React from "react";
+import React, { useEffect } from "react";
 import Navbar from "./Components/Navbar";
 import Footer from "./Components/Footer";
 import Library from "./Pages/Library/Library";
@@ -10,10 +10,22 @@ import ForumPage from "./Pages/Community/CommunityForum";
 import Profile from "./Pages/Profile/Profile";
 import withLoading from "./Components/withLoading";
 import DotRing from "./Components/DotRing/DotRing";
+import alanBtn from "@alan-ai/alan-sdk-web";
 
 const ForumPageWithLoading = withLoading(ForumPage);
 
 export default function App() {
+  useEffect(() => {
+    alanBtn({
+      key: "d01fc9e7a22b610ebdd4654d5969a9712e956eca572e1d8b807a3e2338fdd0dc/stage",
+      onCommand: (commandData) => {
+        if (commandData.command === "go:back") {
+          // Call the client code that will react to the received command
+        }
+      },
+    });
+  }, []);
+
   return (
     <>
       <div>
