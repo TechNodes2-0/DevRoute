@@ -19,9 +19,8 @@ export default function Cards() {
               <div className="flex justify-between items-center">
                 <div>
                   <h3 className="group-hover:text-blue-600 font-semibold text-gray-800 dark:group-hover:text-gray-400 dark:text-gray-200">
-                    Management
+                    React Router
                   </h3>
-                  <p className="text-sm text-gray-500">4 job positions</p>
                 </div>
                 <div className="pl-3">
                   <svg
