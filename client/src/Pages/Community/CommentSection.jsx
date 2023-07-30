@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 
 const CommentSection = ({ comments, onAddComment }) => {
   const [newComment, setNewComment] = useState("");
@@ -6,7 +6,7 @@ const CommentSection = ({ comments, onAddComment }) => {
   const handleCommentChange = (event) => {
     setNewComment(event.target.value);
   };
-
+  
   const handleAddComment = () => {
     if (newComment.trim() !== "") {
       onAddComment(newComment.trim());
@@ -15,7 +15,7 @@ const CommentSection = ({ comments, onAddComment }) => {
   };
 
   return (
-    <div className="comment-section">
+    <div id="comment-section" className="comment-section">
       <h4 className="text-sm md:text-xl font-bold mb-2">Comments:</h4>
       {comments.map((comment) => (
         <div key={comment.id} className="comment-item mb-2 border-0 rounded-lg bg-gray-700 p-2">
@@ -31,7 +31,7 @@ const CommentSection = ({ comments, onAddComment }) => {
           placeholder="Add your comment..."
         />
         <button
-          onClick={handleAddComment}
+          onClick={() =>handleAddComment}
           className="text-sm md:text-xl  px-4 py-2 mt-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600 focus:outline-none focus:ring-2 focus:ring-blue-500"
         >
           Add Comment

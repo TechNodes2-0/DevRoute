@@ -5,17 +5,17 @@ import React from "react";
 export default function Star() {
   return (
     <div>
-      <div class="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
-        <div class="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6">
-          <h2 class="text-xl font-semibold md:text-2xl md:leading-tight text-gray-800 dark:text-gray-200">
+      <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
+        <div className="sm:w-1/2 xl:w-1/3 mx-auto text-center mb-6">
+          <h2 className="text-xl font-semibold md:text-2xl md:leading-tight text-gray-800 dark:text-gray-200">
             Trusted by Open Source, enterprise, and more than 99,000 of you
           </h2>
         </div>
 
-        <div class="my-8 md:my-16 grid grid-cols-3 sm:flex sm:justify-center gap-6 sm:gap-x-12 lg:gap-x-20">
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+        <div className="my-8 md:my-16 grid grid-cols-3 sm:flex sm:justify-center gap-6 sm:gap-x-12 lg:gap-x-20">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               width="48"
               height="55"
               viewBox="0 0 48 55"
@@ -33,9 +33,9 @@ export default function Star() {
             </svg>
           </a>
 
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               width="48"
               height="42"
               viewBox="0 0 48 42"
@@ -64,9 +64,9 @@ export default function Star() {
             </svg>
           </a>
 
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               width="48"
               height="51"
               viewBox="0 0 48 51"
@@ -95,9 +95,9 @@ export default function Star() {
             </svg>
           </a>
 
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               width="48"
               height="48"
               viewBox="0 0 48 48"
@@ -119,9 +119,9 @@ export default function Star() {
             </svg>
           </a>
 
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               width="48"
               height="48"
               viewBox="0 0 48 48"
@@ -131,19 +131,19 @@ export default function Star() {
               <path
                 d="M22.4295 0.0375632C22.3263 0.0469373 21.9982 0.0797466 21.703 0.103182C14.8927 0.717184 8.51362 4.39183 4.47339 10.0397C2.22361 13.18 0.784692 16.7422 0.240995 20.5153C0.0488258 21.8323 0.0253906 22.2213 0.0253906 24.0071C0.0253906 25.7929 0.0488258 26.1819 0.240995 27.4989C1.54399 36.5028 7.95118 44.0676 16.641 46.8705C18.1971 47.372 19.8375 47.7142 21.703 47.9204C22.4295 48.0001 25.5698 48.0001 26.2963 47.9204C29.5163 47.5642 32.2441 46.7674 34.9345 45.3941C35.3469 45.1832 35.4266 45.1269 35.3704 45.08C35.3329 45.0519 33.5752 42.6943 31.4661 39.8446L27.6321 34.6654L22.8279 27.5552C20.1844 23.6462 18.0096 20.4496 17.9908 20.4496C17.9721 20.4449 17.9533 23.604 17.944 27.4615C17.9299 34.2155 17.9252 34.4873 17.8408 34.6467C17.719 34.8764 17.6252 34.9701 17.4284 35.0732C17.2784 35.1482 17.1472 35.1623 16.4394 35.1623H15.6286L15.413 35.0263C15.2723 34.9373 15.1692 34.8201 15.0989 34.6842L15.0005 34.4733L15.0099 25.0757L15.0239 15.6735L15.1692 15.4907C15.2442 15.3923 15.4036 15.2658 15.5161 15.2048C15.7082 15.1111 15.7832 15.1017 16.5941 15.1017C17.5502 15.1017 17.7096 15.1392 17.958 15.4111C18.0283 15.4861 20.6296 19.4044 23.7418 24.1243C26.854 28.8441 31.1099 35.2888 33.2003 38.4526L36.9968 44.2036L37.189 44.077C38.8903 42.9709 40.6902 41.396 42.115 39.7556C45.1475 36.2731 47.102 32.0266 47.7582 27.4989C47.9504 26.1819 47.9738 25.7929 47.9738 24.0071C47.9738 22.2213 47.9504 21.8323 47.7582 20.5153C46.4552 11.5114 40.048 3.94656 31.3583 1.14371C29.8256 0.646879 28.1945 0.304725 26.3666 0.0984947C25.9166 0.0516243 22.8185 6.68575e-05 22.4295 0.0375632V0.0375632ZM32.2441 14.5393C32.4691 14.6518 32.6519 14.8674 32.7175 15.0923C32.755 15.2142 32.7644 17.8202 32.755 23.6931L32.7409 32.1204L31.2552 29.8425L29.7647 27.5646V21.4386C29.7647 17.478 29.7834 15.2517 29.8115 15.1439C29.8865 14.8814 30.0506 14.6752 30.2756 14.5533C30.4677 14.4549 30.538 14.4455 31.2739 14.4455C31.9676 14.4455 32.0894 14.4549 32.2441 14.5393V14.5393Z"
                 fill="currentColor"
-                class="fill-black dark:fill-white"
+                className="fill-black dark:fill-white"
               />
               <path
                 d="M36.7627 44.3067C36.5986 44.4098 36.5471 44.4801 36.6924 44.4004C36.7955 44.3395 36.9642 44.2129 36.9361 44.2083C36.922 44.2083 36.8423 44.2551 36.7627 44.3067ZM36.4393 44.5176C36.3549 44.5832 36.3549 44.5879 36.458 44.5363C36.5142 44.5082 36.5611 44.4754 36.5611 44.466C36.5611 44.4285 36.5377 44.4379 36.4393 44.5176ZM36.2049 44.6582C36.1205 44.7238 36.1205 44.7285 36.2237 44.677C36.2799 44.6488 36.3268 44.616 36.3268 44.6067C36.3268 44.5692 36.3033 44.5785 36.2049 44.6582ZM35.9706 44.7988C35.8862 44.8644 35.8862 44.8691 35.9893 44.8176C36.0455 44.7894 36.0924 44.7566 36.0924 44.7473C36.0924 44.7098 36.069 44.7191 35.9706 44.7988ZM35.6143 44.9863C35.4362 45.08 35.4456 45.1175 35.6237 45.0285C35.7034 44.9863 35.7643 44.9441 35.7643 44.9347C35.7643 44.9019 35.7596 44.9066 35.6143 44.9863Z"
                 fill="currentColor"
-                class="fill-black dark:fill-white"
+                className="fill-black dark:fill-white"
               />
             </svg>
           </a>
 
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               width="48"
               height="50"
               viewBox="0 0 48 50"
@@ -164,9 +164,9 @@ export default function Star() {
             </svg>
           </a>
 
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               width="48"
               height="50"
               viewBox="0 0 1280 1280"
@@ -218,9 +218,9 @@ export default function Star() {
             </svg>
           </a>
 
-          <a class="flex-shrink-0 transition hover:-translate-y-1" href="#">
+          <a className="flex-shrink-0 transition hover:-translate-y-1" href="#">
             <svg
-              class="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
+              className="w-6 h-6 md:w-10 md:h-10 mx-auto sm:mx-0"
               fill="none"
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 70 70"
@@ -253,28 +253,30 @@ export default function Star() {
           </a>
         </div>
 
-        <div class="grid grid-cols-12 sm:flex sm:justify-center gap-6 sm:gap-x-12 lg:gap-x-20">
-          <div class="col-span-6 text-center">
-            <h4 class="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
+        <div className="grid grid-cols-12 sm:flex sm:justify-center gap-6 sm:gap-x-12 lg:gap-x-20">
+          <div className="col-span-6 text-center">
+            <h4 className="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
               250+
             </h4>
-            <h4 class="text-sm text-gray-600 dark:text-gray-400">Components</h4>
+            <h4 className="text-sm text-gray-600 dark:text-gray-400">
+              Components
+            </h4>
           </div>
 
-          <div class="col-span-6 text-center">
-            <h4 class="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
+          <div className="col-span-6 text-center">
+            <h4 className="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
               160+
             </h4>
-            <h4 class="text-sm text-gray-600 dark:text-gray-400">
+            <h4 className="text-sm text-gray-600 dark:text-gray-400">
               Starter Pages & Examples
             </h4>
           </div>
 
-          <div class="col-start-4 col-span-6 text-center">
-            <h4 class="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
+          <div className="col-start-4 col-span-6 text-center">
+            <h4 className="text-xl md:text-3xl font-semibold text-gray-800 dark:text-gray-200">
               10+
             </h4>
-            <h4 class="text-sm text-gray-600 dark:text-gray-400">
+            <h4 className="text-sm text-gray-600 dark:text-gray-400">
               Tailwind CSS Plugins
             </h4>
           </div>

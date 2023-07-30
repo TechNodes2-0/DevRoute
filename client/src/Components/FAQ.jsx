@@ -4,7 +4,7 @@ import React from "react";
 
 export default function FAQ() {
   return (
-    <div classNameName="bg-gray-900">
+    <div className="bg-gray-900">
       <div className="max-w-[85rem] px-4 py-10 sm:px-6 lg:px-8 lg:py-14 mx-auto">
         <div className="grid md:grid-cols-5 gap-10">
           <div className="md:col-span-2">
@@ -40,8 +40,8 @@ export default function FAQ() {
                     <path
                       d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                   <svg
@@ -55,8 +55,8 @@ export default function FAQ() {
                     <path
                       d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                 </button>
@@ -97,8 +97,8 @@ export default function FAQ() {
                     <path
                       d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                   <svg
@@ -112,8 +112,8 @@ export default function FAQ() {
                     <path
                       d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                 </button>
@@ -153,8 +153,8 @@ export default function FAQ() {
                     <path
                       d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                   <svg
@@ -168,8 +168,8 @@ export default function FAQ() {
                     <path
                       d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                 </button>
@@ -207,8 +207,8 @@ export default function FAQ() {
                     <path
                       d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                   <svg
@@ -222,8 +222,8 @@ export default function FAQ() {
                     <path
                       d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                 </button>
@@ -262,8 +262,8 @@ export default function FAQ() {
                     <path
                       d="M2 5L8.16086 10.6869C8.35239 10.8637 8.64761 10.8637 8.83914 10.6869L15 5"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                   <svg
@@ -277,8 +277,8 @@ export default function FAQ() {
                     <path
                       d="M2 11L8.16086 5.31305C8.35239 5.13625 8.64761 5.13625 8.83914 5.31305L15 11"
                       stroke="currentColor"
-                      stroke-width="2"
-                      stroke-linecap="round"
+                      strokeWidth="2"
+                      strokeLinecap="round"
                     />
                   </svg>
                 </button>
