@@ -434,7 +434,7 @@ webpack 5.69.1 compiled successfully in 1275 ms
 The application repository is available at [https://github.com/rodrigokamada/react-auth0](https://github.com/rodrigokamada/react-auth0).
 `;
 
-export {
+module.exports = {
   article1,
   article2,
   article3,
