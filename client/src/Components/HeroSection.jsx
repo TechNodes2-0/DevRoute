@@ -3,7 +3,7 @@
 import React, { useContext } from "react";
 import DotRing from "../Components/DotRing/DotRing";
 import { MouseContext } from "../context/mouse-context";
-
+import { Link } from "react-router-dom";
 export default function HeroSection() {
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
 
@@ -30,9 +30,9 @@ export default function HeroSection() {
           </div>
 
           <div className="text-center">
-            <a
+            <Link
               className="inline-flex justify-center items-center gap-x-3 text-center bg-gradient-to-tl from-blue-600 to-violet-600 shadow-lg shadow-transparent hover:shadow-blue-700/50 border border-transparent text-white text-sm font-medium rounded-full focus:outline-none focus:ring-2 focus:ring-blue-600 focus:ring-offset-2 focus:ring-offset-white py-3 px-6 dark:focus:ring-offset-gray-800"
-              href="#"
+              to="/Library"
             >
               Get started
               <svg
@@ -49,7 +49,7 @@ export default function HeroSection() {
                   strokeLinecap="round" // Corrected attribute name
                 />
               </svg>
-            </a>
+            </Link>
           </div>
         </div>
       </div>
