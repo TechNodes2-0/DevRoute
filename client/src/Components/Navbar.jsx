@@ -2,8 +2,12 @@
 
 import React from "react";
 import { Link } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
 
 function Navbar() {
+  const { loginWithRedirect } = useAuth0();
+  const { logout } = useAuth0();
+  const { user, isAuthenticated, isLoading } = useAuth0();
   return (
     <div className="bg-gray-50 dark:bg-slate-900">
       <header className="flex flex-wrap sm:justify-start sm:flex-nowrap z-50 w-full bg-gray-900 border-b border-gray-700 text-sm py-2.5 sm:py-4">
@@ -251,6 +255,41 @@ function Navbar() {
                 </span>
               </Link>
             </div>
+            <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
+              {!isAuthenticated ? (
+                
+                <a
+                  onClick={() => loginWithRedirect()}
+                  href=""
+                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 hover-underline-animation   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover-underline-animation "
+                >
+                  Login
+                </a>
+              ) : (
+                <a
+                  onClick={() => logout()}
+                  href=""
+                  class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 hover-underline-animation   dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover-underline-animation "
+                >
+                  Logout
+                </a>
+              )}
+            </div>
+            <li>
+              {isAuthenticated && (
+                <div className="flex  gap-4 ">
+                  <img
+                    className="w-10 h-10 rounded-full"
+                    src={user.picture}
+                    alt={user.name}
+                  />
+                  <p class="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 hover-underline-animation  dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent hover-underline-animation ">
+                    {" "}
+                    {user.name}{" "}
+                  </p>
+                </div>
+              )}
+            </li>
           </div>
         </nav>
       </main>
