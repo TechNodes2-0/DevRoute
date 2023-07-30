@@ -1,40 +1,41 @@
-# Welcome to HackBattle-React-vs-Angular
+# Welcome to DevRoutes - Your Guide to Web Development
+
 ## 🚀 Inspiration
 
-DevRoute Navigator was inspired by the desire to create a powerful tool that helps developers navigate through the vast and ever-evolving landscape of technologies. We wanted to provide a comprehensive roadmap that enables developers to explore different implementation approaches, learn from the community's experiences, and contribute their own insights.
+DevRoutes was inspired by the desire to create a powerful tool that helps developers navigate through the vast and ever-evolving landscape of web development technologies. We wanted to provide a comprehensive roadmap that enables developers to explore different implementation approaches, learn from the community's experiences, and contribute their own insights.
 
 ## ❓ What it does
 
-DevRoute Navigator is a web application that serves as a roadmap and guide for developers interested in exploring various technologies and libraries within a specific technology stack, starting with a focus on React. The application provides an interactive hierarchical tree structure, allowing users to dive into different components, libraries, and implementation approaches. Users can access curated article links, tutorials, and documentation to deepen their knowledge and make informed choices. The platform also encourages collaboration, allowing users to share their implementation approaches and rate the effectiveness of various methods.
+DevRoutes is a web application that serves as a roadmap and guide for developers interested in exploring various technologies and libraries within a specific technology stack, starting with a focus on React. The application provides an interactive hierarchical tree structure, allowing users to dive into different components, libraries, and implementation approaches. Users can access curated article links, tutorials, and documentation to deepen their knowledge and make informed choices. The platform also encourages collaboration, allowing users to share their implementation approaches and rate the effectiveness of various methods.
 
 ## 🛠️ How we built it
 
-DevRoute Navigator is built using a combination of frontend and backend technologies. The frontend utilizes Vite and React.js to create a dynamic and responsive user interface. The hierarchical tree structure is presented in an interactive and visually appealing manner, enhancing the user experience. For the backend, we implemented an Express.js server, handling API requests and interactions with the MongoDB database, which stores data related to user profiles, article links, and user contributions.
+DevRoutes is built using a combination of frontend and backend technologies. The frontend utilizes Vite and React.js to create a dynamic and responsive user interface. We render text through the GitHub Markdown API, allowing for real-time updates and access to rich documentation. The hierarchical tree structure is presented using the React-d3-tree library, which was new to our team and proved to be a valuable tool for visualizing complex data structures.
+
+## 💻 Tech Stack
+
+- Frontend: React.js, Vite, React-d3-tree, Auth0
+- Backend: Express.js, MongoDB, GitHub Markdown API
 
 ## 🎯 Challenges we ran into
 
-During the development of DevRoute Navigator, we encountered challenges in designing and implementing the interactive visualization of the hierarchical tree. Ensuring a seamless user experience and handling various user interactions while navigating through the technology ecosystem required careful consideration and attention to detail.
+During the development of DevRoutes, we encountered challenges in designing and implementing the interactive visualization of the hierarchical tree. Ensuring a seamless user experience and handling various user interactions while navigating through the technology ecosystem required careful consideration and attention to detail.
 
 ## 🏆 Accomplishments that we're proud of
 
-We are proud to have created an intuitive and user-friendly platform that empowers developers to explore technology ecosystems like React in a comprehensive and structured manner. The collaborative aspect of the application, which allows users to contribute their insights, has resulted in a thriving community of knowledge-sharing and learning.
+We are proud to have created an intuitive and user-friendly platform that empowers developers to explore technology ecosystems like React and other languages in a comprehensive and structured manner. The collaborative aspect of the application, which allows users to contribute their insights, has resulted in a thriving community of knowledge-sharing and learning.
 
 ## 🧠 What we learned
 
-Developing DevRoute Navigator was a valuable learning experience for our team. We honed our skills in frontend and backend development, interactive data visualization, and managing user contributions. Moreover, we gained insights into the specific challenges developers face when navigating technology stacks, motivating us to create an even more robust and inclusive roadmap.
+Developing DevRoutes was a valuable learning experience for our team. We honed our skills in frontend and backend development, interactive data visualization, and managing user contributions. Moreover, we gained insights into the specific challenges developers face when navigating technology stacks, motivating us to create an even more robust and inclusive roadmap.
 
-## 🔮 What's next for DevRoute
+## 🔮 What's next for DevRoutes
 
-As we continue to grow DevRoute Navigator, our vision is to expand beyond React and encompass other technology ecosystems, catering to developers with diverse interests. We aim to enrich the platform with more curated resources, enhance user profiles, and add new features based on valuable feedback from our community. Ultimately, our goal is to be the go-to destination for developers seeking guidance and knowledge in their technology journey.
-
-
-
-
-
+As we continue to grow DevRoutes, our vision is to expand beyond React and encompass other technology ecosystems, catering to developers with diverse interests. We aim to enrich the platform with more curated resources, enhance user profiles, and add new features based on valuable feedback from our community. Our ultimate goal is to be the go-to destination for developers seeking guidance and knowledge in their technology journey.
 
 ## Description
 
-HackBattle-React-vs-Angular is a web development project that lets you build your favorite web hacks using either React or Angular. Choose your preferred framework and start hacking!
+DevRoutes - Your Guide to Web Development is a web application that lets you explore different web development technologies and libraries, starting with a focus on React. Choose your preferred technology stack and start your journey into the world of web development!
 
 ## Getting Started
 
@@ -69,10 +70,10 @@ Before running the client, make sure to create a `.env` file in the root directo
 
 ## Contributing
 
-We welcome contributions to improve HackBattle-React-vs-Angular. Feel free to open issues and submit pull requests.
+We welcome contributions to improve DevRoutes. Feel free to open issues and submit pull requests.
 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
 
-Happy hacking!
+Happy learning and happy coding with DevRoutes!
