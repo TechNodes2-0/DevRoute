@@ -141,4 +141,4 @@ const article5 = `(## How to Apply Authorization in a Node.js Application?
                 By applying these steps, we have successfully implemented authorization in our Node.js application. Users are now authenticated and authorized based on their user_type_id, ensuring that only authorized users have access to specific routes and resources. This enhances the security and control over user interactions in the application.
                 `;
 
-export { article1, article2, article3, article4, article5 };
+module.exports =  { article1, article2, article3, article4, article5 };
