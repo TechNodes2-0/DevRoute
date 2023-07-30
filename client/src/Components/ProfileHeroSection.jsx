@@ -2,6 +2,7 @@
 
 import React from "react";
 import { useAuth0 } from "@auth0/auth0-react";
+import Cards from "../Components/Cards";
 
 export default function ProfileHeroSection() {
   const { loginWithRedirect } = useAuth0();
@@ -37,7 +38,7 @@ export default function ProfileHeroSection() {
               <button class="text-white py-2 px-4 uppercase rounded bg-blue-400 hover:bg-blue-500 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
                 Connect
               </button>
-              <button class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-white shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
+              <button class="text-white py-2 px-4 uppercase rounded bg-gray-700 hover:bg-blue-600 shadow hover:shadow-lg font-medium transition transform hover:-translate-y-0.5">
                 Message
               </button>
             </div>
@@ -49,13 +50,7 @@ export default function ProfileHeroSection() {
             <p class="mt-2 text-white">University of Computer Science</p>
           </div>
           <div class="mt-12 flex flex-col justify-center">
-            <h1 className=" text-center text-3xl text-white font-bold sm:text-5xl lg:text-6xl lg:leading-tight dark:text-gray-200">
-              {" "}
-              <span className="link link-underline link-underline-black">
-                {" "}
-                Features{" "}
-              </span>
-            </h1>
+            <Cards />
           </div>
         </div>
       </div>
