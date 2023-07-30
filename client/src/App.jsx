@@ -36,6 +36,7 @@ export default function App() {
           <Route path="/Library" element={<Library />} />
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Forum" element={<ForumPageWithLoading />} />
+          <Route path="/Error" element={<Error />} />
         </Routes>
         <Footer />
       </div>

@@ -26,13 +26,13 @@ function Navbar() {
               className="h-8 mr-3"
               alt="Logo"
             />
-            <a
+            <Link
               className="flex-none text-xl font-semibold text-white"
-              href="#"
+              to="/"
               aria-label="Brand"
             >
               DevRoute
-            </a>
+            </Link>
           </div>
 
           {/* Search Bar */}
@@ -120,9 +120,9 @@ function Navbar() {
                       </svg>
                       Profile
                     </Link>
-                    <a
+                    <Link
                       className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
-                      href="#"
+                      to="#"
                     >
                       <svg
                         className="flex-none"
@@ -140,7 +140,7 @@ function Navbar() {
                         />
                       </svg>
                       Saved
-                    </a>
+                    </Link>
 
                     <a
                       className="flex items-center gap-x-3.5 py-2 px-3 rounded-md text-sm text-gray-800 hover:bg-gray-100 focus:ring-2 focus:ring-blue-500 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300"
@@ -202,12 +202,12 @@ function Navbar() {
         >
           <div className="max-w-7xl snap-x w-full flex items-center overflow-x-auto scrollbar-x px-4 sm:px-6 lg:px-8 pb-4 md:pb-0 mx-auto dark:scrollbar-x">
             <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last-pr-0">
-              <a
+              <Link
                 className="inline-flex items-center gap-x-2 hover:text-gray-500 dark:text-gray-400 dark:hover:text-gray-500"
-                href="#"
+                to="/"
               >
-                Dashboard
-              </a>
+                Home
+              </Link>
             </div>
             <div className="snap-center shrink-0 pr-5 sm:pr-8 sm:last:pr-0">
               <Link
