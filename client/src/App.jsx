@@ -11,6 +11,7 @@ import Profile from "./Pages/Profile/Profile";
 import withLoading from "./Components/withLoading";
 import DotRing from "./Components/DotRing/DotRing";
 import alanBtn from "@alan-ai/alan-sdk-web";
+import Roadmap from "./Pages/Tree/Tree";
 
 const ForumPageWithLoading = withLoading(ForumPage);
 
@@ -37,6 +38,7 @@ export default function App() {
           <Route path="/Profile" element={<Profile />} />
           <Route path="/Forum" element={<ForumPageWithLoading />} />
           <Route path="/Error" element={<Error />} />
+          <Route path="/RoadMap" element={<Roadmap />} />
         </Routes>
         <Footer />
       </div>
