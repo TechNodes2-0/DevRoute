@@ -19,10 +19,15 @@ export default function App() {
   useEffect(() => {
     alanBtn({
       key: "fee4955af337c95864a5a62bdae65be32e956eca572e1d8b807a3e2338fdd0dc/stage",
-      onCommand: (commandData) => {
-        if (commandData.command === "go:back") {
-          // Call the client code that will react to the received command
+      onCommand: function (commandData) {
+        if (commandData && commandData.command === 'openURL') {
+          if (commandData.target === '_blank') {
+            window.open(commandData.url, '_newtab' + Math.floor(Math.random() * 999999));
+          } else {
+            window.location.href = commandData.url;
+          }
         }
+
       },
     });
   }, []);
