@@ -1,10 +1,15 @@
 /** @format */
 
-import React from "react";
+import React, { useContext } from "react";
+import DotRing from "../Components/DotRing/DotRing";
+import { MouseContext } from "../context/mouse-context";
 
 export default function HeroSection() {
+  const { cursorType, cursorChangeHandler } = useContext(MouseContext);
+
   return (
     <div class="bg-slate-900">
+      <DotRing />
       <div class="bg-gradient-to-b from-violet-600/[.15] via-transparent">
         <div class="max-w-[85rem] mx-auto px-4 sm:px-6 lg:px-8 py-24 space-y-8">
           <div class="max-w-3xl text-center mx-auto">
@@ -14,7 +19,11 @@ export default function HeroSection() {
           </div>
 
           <div class="max-w-3xl text-center mx-auto">
-            <p class="text-lg text-gray-400">
+            <p
+              class="text-lg text-gray-400"
+              onMouseEnter={() => cursorChangeHandler("hovered")}
+              onMouseLeave={() => cursorChangeHandler("")}
+            >
               DevRoute Navigator focuses on technology ecosystems like React,
               providing an interactive hierarchical tree structure.
             </p>
