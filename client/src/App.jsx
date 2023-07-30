@@ -8,17 +8,23 @@ import Home from "./Pages/Home/Home";
 import { Routes, Route } from "react-router-dom";
 import ForumPage from "./Pages/Community/CommunityForum";
 import Profile from "./Pages/Profile/Profile";
+import withLoading from "./Components/withLoading";
+
+const ForumPageWithLoading = withLoading(ForumPage);
+
 export default function App() {
   return (
-    <div>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />}></Route>
-        <Route path="/Library" element={<Library />}></Route>
-        <Route path="/Profile" element={<Profile />}></Route>
-        <Route path="/Forum" element={<ForumPage />}></Route>
-      </Routes>
-      <Footer />
-    </div>
+    <>
+      <div>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Library" element={<Library />} />
+          <Route path="/Profile" element={<Profile />} />
+          <Route path="/Forum" element={<ForumPageWithLoading />} />
+        </Routes>
+        <Footer />
+      </div>
+    </>
   );
 }
