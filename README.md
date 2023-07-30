@@ -37,6 +37,13 @@ As we continue to grow DevRoutes, our vision is to expand beyond React and encom
 
 DevRoutes - Your Guide to Web Development is a web application that lets you explore different web development technologies and libraries, starting with a focus on React. Choose your preferred technology stack and start your journey into the world of web development!
 
+
+
+### Snapshots
+
+![WhatsApp Image 2023-07-30 at 19 49 36](https://github.com/TechNodes2-0/DevRoute/assets/107855172/0c4b5951-d1c0-4f4d-be99-474157dc8582)
+
+
 ## Getting Started
 
 Follow the steps below to set up the project on your local machine:
