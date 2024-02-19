@@ -6,6 +6,6 @@
   "devDependencies": {
     "@commitlint/cli": "^18.2.0",
     "@commitlint/config-conventional": "^17.6.7",
-    "husky": "^8.0.3"
+    "husky": "^9.0.11"
   }
 }
